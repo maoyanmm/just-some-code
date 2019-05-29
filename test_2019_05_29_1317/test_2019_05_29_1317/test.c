@@ -40,7 +40,7 @@ void reverse(char arr[], int sz)
 }
 int main()
 {                               
-	char arr[] = "student a am i"; // retep ma a tneduts  
+	char arr[] = "student a am i"; // i ma a tneduts  
 	int sz = sizeof(arr) / sizeof(arr[0])-1;
 	reverse(arr, sz);
 	printf("%s", arr);
