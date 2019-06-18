@@ -1,0 +1,10 @@
+﻿生成启动时间为 2019/6/18 16:46:12。
+     1>项目“F:\Visual studio 2013编程\代码文件\test_2019_06_18_1322\test_2019_06_18_1322\test_2019_06_18_1322.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         F:\Visual studio 2013编程\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Visual studio 2013编程\代码文件\test_2019_06_18_1322\Debug\test_2019_06_18_1322.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Visual studio 2013编程\代码文件\test_2019_06_18_1322\Debug\test_2019_06_18_1322.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Visual studio 2013编程\代码文件\test_2019_06_18_1322\Debug\test_2019_06_18_1322.lib" /MACHINE:X86 Debug\test.obj
+     1>LINK : fatal error LNK1168: 无法打开 F:\Visual studio 2013编程\代码文件\test_2019_06_18_1322\Debug\test_2019_06_18_1322.exe 进行写入
+     1>已完成生成项目“F:\Visual studio 2013编程\代码文件\test_2019_06_18_1322\test_2019_06_18_1322\test_2019_06_18_1322.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.35

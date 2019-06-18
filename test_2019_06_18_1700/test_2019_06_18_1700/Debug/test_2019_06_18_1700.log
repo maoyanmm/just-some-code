@@ -1,0 +1,20 @@
+﻿生成启动时间为 2019/6/18 18:31:21。
+     1>项目“F:\Visual studio 2013编程\代码文件\test_2019_06_18_1700\test_2019_06_18_1700\test_2019_06_18_1700.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\Visual studio 2013编程\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt test.c
+         test.c
+     1>f:\visual studio 2013编程\代码文件\test_2019_06_18_1700\test_2019_06_18_1700\test.c(8): warning C4090: “初始化”: 不同的“const”限定符
+     1>f:\visual studio 2013编程\代码文件\test_2019_06_18_1700\test_2019_06_18_1700\test.c(18): warning C4047: “return”:“char *”与“int”的间接级别不同
+     1>f:\visual studio 2013编程\代码文件\test_2019_06_18_1700\test_2019_06_18_1700\test.c(22): warning C4047: “return”:“char *”与“int”的间接级别不同
+     1>f:\visual studio 2013编程\代码文件\test_2019_06_18_1700\test_2019_06_18_1700\test.c(28): warning C4047: “return”:“char *”与“int”的间接级别不同
+     1>f:\visual studio 2013编程\代码文件\test_2019_06_18_1700\test_2019_06_18_1700\test.c(40): warning C4047: “return”:“char *”与“int”的间接级别不同
+     1>f:\visual studio 2013编程\代码文件\test_2019_06_18_1700\test_2019_06_18_1700\test.c(44): warning C4047: “return”:“char *”与“int”的间接级别不同
+     1>f:\visual studio 2013编程\代码文件\test_2019_06_18_1700\test_2019_06_18_1700\test.c(46): warning C4715: “Mystrncmp”: 不是所有的控件路径都返回值
+       Link:
+         F:\Visual studio 2013编程\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Visual studio 2013编程\代码文件\test_2019_06_18_1700\Debug\test_2019_06_18_1700.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Visual studio 2013编程\代码文件\test_2019_06_18_1700\Debug\test_2019_06_18_1700.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Visual studio 2013编程\代码文件\test_2019_06_18_1700\Debug\test_2019_06_18_1700.lib" /MACHINE:X86 Debug\test.obj
+         test_2019_06_18_1700.vcxproj -> F:\Visual studio 2013编程\代码文件\test_2019_06_18_1700\Debug\test_2019_06_18_1700.exe
+     1>已完成生成项目“F:\Visual studio 2013编程\代码文件\test_2019_06_18_1700\test_2019_06_18_1700\test_2019_06_18_1700.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.92
