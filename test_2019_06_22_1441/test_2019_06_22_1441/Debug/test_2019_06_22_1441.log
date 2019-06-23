@@ -1,0 +1,20 @@
+﻿生成启动时间为 2019/6/22 18:15:46。
+     1>项目“F:\Visual studio 2013编程\代码文件\test_2019_06_22_1441\test_2019_06_22_1441\test_2019_06_22_1441.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\Visual studio 2013编程\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt contact.c
+         contact.c
+     1>f:\visual studio 2013编程\代码文件\test_2019_06_22_1441\test_2019_06_22_1441\contact.c(44): warning C4033: “SearchContact”必须返回值
+     1>f:\visual studio 2013编程\代码文件\test_2019_06_22_1441\test_2019_06_22_1441\contact.c(54): warning C4033: “SearchContact”必须返回值
+     1>f:\visual studio 2013编程\代码文件\test_2019_06_22_1441\test_2019_06_22_1441\contact.c(58): warning C4033: “SearchContact”必须返回值
+     1>f:\visual studio 2013编程\代码文件\test_2019_06_22_1441\test_2019_06_22_1441\contact.c(100): warning C4047: “函数”:“Contact *”与“Contact **”的间接级别不同
+     1>f:\visual studio 2013编程\代码文件\test_2019_06_22_1441\test_2019_06_22_1441\contact.c(100): warning C4024: “InitContact”: 形参和实参 1 的类型不同
+     1>f:\visual studio 2013编程\代码文件\test_2019_06_22_1441\test_2019_06_22_1441\contact.c(60): warning C4716: “SearchContact”: 必须返回一个值
+       Link:
+         F:\Visual studio 2013编程\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Visual studio 2013编程\代码文件\test_2019_06_22_1441\Debug\test_2019_06_22_1441.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Visual studio 2013编程\代码文件\test_2019_06_22_1441\Debug\test_2019_06_22_1441.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Visual studio 2013编程\代码文件\test_2019_06_22_1441\Debug\test_2019_06_22_1441.lib" /MACHINE:X86 Debug\contact.obj
+         Debug\test.obj
+         test_2019_06_22_1441.vcxproj -> F:\Visual studio 2013编程\代码文件\test_2019_06_22_1441\Debug\test_2019_06_22_1441.exe
+     1>已完成生成项目“F:\Visual studio 2013编程\代码文件\test_2019_06_22_1441\test_2019_06_22_1441\test_2019_06_22_1441.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.95
