@@ -4,18 +4,41 @@ using namespace std;
 class Date
 {
 public:
-	Date(int year = 2008, int month = 8, int day = 8)
+	/*Date(int year = 2008, int month = 8, int day = 8)
 	{
+		_year = year;
+		_month = month;
+		_day = day;
+	}*/
+
+	int getDay(int year, int month)
+	{
+		int arr[] = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+		int days = arr[month - 1];
+		if (month == 2)
+		{
+			if ((year % 4 == 0 && year % 100 != 0) || (year % 400) == 0)
+			{
+				days++;
+			}
+		}
+		return days;
+	}
+
+	Date(int year , int month , int day )
+	{
+		//判断日期输入的是否正确
 		_year = year;
 		_month = month;
 		_day = day;
 	}
 
 	Date(const Date& d)
+		:_year(d._year)
+		, _month(d._month)
+		, _day(d._day)
 	{
-			_year = d._year;
-			_month = d._month;
-			_day = d._day;
+
 	}
 
 	Date& operator=(const Date& d)
@@ -68,7 +91,20 @@ public:
 
 	Date operator-(int days)
 	{
-		int day = this->_day - days;
+		Date tmp = *this;
+		tmp._day = tmp._day - days;
+		while (tmp._day <= 0)
+		{
+			tmp._month--;
+			if (tmp._month == 0)
+			{
+				tmp._month = 12;
+				tmp._year--;
+			}
+			tmp._day += getDay(tmp._year, tmp._month);
+		}
+		return tmp;
+		/*int day = this->_day - days;
 		while (day <= 0)
 		{
 			if (this->_month == 1 && day <= 0)
@@ -100,7 +136,7 @@ public:
 			}
 		}
 		this->_day = day;
-		return *this;
+		return *this;*/
 	}
 
 	int operator-(const Date& d)//2019_10_25
@@ -170,13 +206,16 @@ private:
 
 void test()
 {
-	Date d1;
+	Date d(2008,8,8);
+	d = d - 30;
+	d.Display();
+	/*Date d1;
 	d1.Display();
 	Date d2;
 	d2 = d2 + 256;
 	d2.Display();
 	int ret = d2 - d1;
-	cout << "ret=" << ret << endl;
+	cout << "ret=" << ret << endl;*/
 	/*d1 = d1 - 734;
 	d1.Display();*/
 	/*d2.Display();*/
